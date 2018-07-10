@@ -16,8 +16,8 @@ describe 'What should be inside /cats' do
       expect(File).to exist('./cats/outdoor/africa/lion.jpg'), "\nDid you place lion.jpg inside the /cats/outdoor/africa folder?"
     end
 
-    it "the African Wild Cat" do
-      expect(File).to exist('./cats/outdoor/africa/african-wild-cat.jpg'), "\nDid you place african-wild-cat.jpg inside the /cats/outdoor/africa/ folder?"
+    it "the African Wild Cat" dox
+      expect(File).to exist('./cats/outdoor/africa/african-wild-cat.jpg'), "\nDid you splace african-wild-cat.jpg inside the /cats/outdoor/africa/ folder?"
     end
 
     it "the North American Wild Cat" do
